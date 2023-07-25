@@ -4,13 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fruit Brust</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <h1 class="text-red-400">hi</h1>
+    <header class="px-4 lg:mt-12 md:px-10 xl:px-20">
+        <nav
+            class="lg:bg-[#F85559] py-4 lg:px-6 lg:py-5 lg:rounded-s-full lg:rounded-e-full flex flex-row-reverse justify-between items-center lg:flex-row">
+            <!-- link -->
+            <ul class="hidden md:flex gap-4">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">All Fruits</a></li>
+            </ul>
+            <!-- menu bar -->
+            <div class="md:hidden">
+                <img src="./images/bar.png" alt="bar">
+            </div>
+            <!-- logo -->
+            <div class="flex items-center gap-1">
+                <img src="./images/logo.png" alt="logo">
+                <p class="text-xl font-bold text-[#121212]">Fruit Brust</p>
+            </div>
+            <!-- search bar -->
+            <div class="hidden lg:flex bg-[#fff] p-4 rounded-e-full rounded-s-full">
+                <input type="text" placeholder="Search here" class="bg-[#fff] border-0 outline-none">
+                <img src="./images/Frame.png" alt="search">
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>
