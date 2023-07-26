@@ -14,7 +14,7 @@
         <nav
             class="lg:bg-[#F85559] py-4 lg:px-6 lg:py-5 lg:rounded-s-full lg:rounded-e-full flex flex-row-reverse justify-between items-center lg:flex-row">
             <!-- link -->
-            <ul class="hidden md:flex gap-4">
+            <ul class="hidden md:flex gap-4 lg:text-white font-bold">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Shop</a></li>
@@ -26,8 +26,8 @@
             </div>
             <!-- logo -->
             <div class="flex items-center gap-1">
-                <img src="./images/logo.png" alt="logo">
-                <p class="text-xl font-bold text-[#121212]">Fruit Brust</p>
+                <img src="./images/logo.png" alt="logo" class="w-10">
+                <p class="text-3xl font-bold text-white">Fruit Brust</p>
             </div>
             <!-- search bar -->
             <div class="hidden lg:flex bg-[#fff] p-4 rounded-e-full rounded-s-full">
@@ -41,7 +41,8 @@
             <div id="slide1" class="carousel-item relative w-full">
                 <!-- <img src="./images/banner1.png" class="w-full" /> -->
                 <div class="w-full bg-[url('./images/banner1.png')] bg-center bg-cover">
-                    <div class="backdrop-brightness-50 h-full w-full py-8 px-20 md:py-14 lg:py-24">
+                    <div class="h-full w-full py-8 px-20 md:py-14 lg:py-24"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));">
                         <div class="flex flex-col items-center gap-4 md:gap-6 ">
                             <p class="text-center font-bold text-2xl md:text-4xl lg:text-7xl lg:w-2/3 text-white">Exotic
                                 tastes
@@ -63,7 +64,8 @@
             <div id="slide2" class="carousel-item relative w-full">
                 <!-- <img src="./images/banner2.png" class="w-full" /> -->
                 <div class="w-full bg-[url('./images/banner2.png')] bg-center bg-cover">
-                    <div class="backdrop-brightness-50 h-full w-full py-8 px-20 md:py-14 lg:py-24">
+                    <div class="h-full w-full py-8 px-20 md:py-14 lg:py-24"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));">
                         <div class="flex flex-col items-center gap-4 md:gap-6 ">
                             <p class="text-center font-bold text-2xl md:text-4xl lg:text-7xl lg:w-2/3 text-white">Exotic
                                 tastes
@@ -85,7 +87,8 @@
             <div id="slide3" class="carousel-item relative w-full">
                 <!-- <img src="./images/banner3.png" class="w-full" /> -->
                 <div class="w-full bg-[url('./images/banner3.png')] bg-center bg-cover">
-                    <div class="backdrop-brightness-50 h-full w-full py-8 px-20 md:py-14 lg:py-24">
+                    <div class="h-full w-full py-8 px-20 md:py-14 lg:py-24"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));">
                         <div class="flex flex-col items-center gap-4 md:gap-6 ">
                             <p class="text-center font-bold text-2xl md:text-4xl lg:text-7xl lg:w-2/3 text-white">Exotic
                                 tastes
@@ -107,7 +110,8 @@
             <div id="slide4" class="carousel-item relative w-full">
                 <!-- <img src="./images/banner4.png" class="w-full" /> -->
                 <div class="w-full bg-[url('./images/banner4.png')] bg-center bg-cover">
-                    <div class="backdrop-brightness-50 h-full w-full py-8 px-20 md:py-14 lg:py-24">
+                    <div class="h-full w-full py-8 px-20 md:py-14 lg:py-24"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));">
                         <div class="flex flex-col items-center gap-4 md:gap-6 ">
                             <p class="text-center font-bold text-2xl md:text-4xl lg:text-7xl lg:w-2/3 text-white">Exotic
                                 tastes
@@ -295,6 +299,28 @@
             </div>
         </section>
     </main>
+    <footer class="px-4 md:px-10 py-12 md:py-16 lg:py-20 bg-black flex flex-col items-center gap-14">
+        <div class="flex items-center justify-center gap-2">
+            <img src="./images/logo.png" alt="logo" class="w-5 md:w-auto">
+            <p class="text-white font-extrabold text-xl md:text-3xl lg:text-4xl">Fruit Burst</p>
+        </div>
+        <div class="flex flex-wrap justify-center gap-8 text-white font-bold">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Shop</a>
+            <a href="#">All Fruits</a>
+            <a href="#">Support</a>
+            <a href="#">My Account</a>
+        </div>
+        <div class="flex justify-center gap-4">
+            <img src="./images/tt.png" alt="icon" class="w-6 md:w-auto">
+            <img src="./images/fb.png" alt="icon" class="w-6 md:w-auto">
+            <img src="./images/yt.png" alt="icon" class="w-6 md:w-auto">
+            <img src="./images/ld.png" alt="icon" class="w-6 md:w-auto">
+            <img src="./images/in.png" alt="icon" class="w-6 md:w-auto">
+            <img src="./images/apple.png" alt="icon" class="w-6 md:w-auto">
+        </div>
+    </footer>
 </body>
 
 </html>
