@@ -12,7 +12,7 @@
 <body>
     <header class="px-4 lg:mt-12 md:px-10 xl:px-20">
         <nav
-            class="lg:bg-[#F85559] py-4 lg:px-6 lg:py-5 lg:rounded-s-full lg:rounded-e-full flex flex-row-reverse justify-between items-center lg:flex-row">
+            class="lg:bg-[#F85559] py-4 lg:px-6 lg:py-5 lg:rounded-s-full lg:rounded-e-full flex flex-row-reverse justify-between items-center lg:flex-row relative">
             <!-- link -->
             <ul class="hidden md:flex gap-4 lg:text-white font-bold">
                 <li><a href="#">Home</a></li>
@@ -22,12 +22,28 @@
             </ul>
             <!-- menu bar -->
             <div class="md:hidden">
-                <img src="./images/bar.png" alt="bar">
+                <div class="dropdown dropdown-end">
+                    <label tabindex="0" class="m-1">
+                        <img src="./images/bar.png" alt="bar">
+                    </label>
+                    <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                        <li>
+                            <a href="#">
+                                <input type="text" placeholder="Search here"
+                                    class="bg-red-100 rounded-md py-2 outline-none">
+                            </a>
+                        </li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">All Fruits</a></li>
+                    </ul>
+                </div>
             </div>
             <!-- logo -->
             <div class="flex items-center gap-1">
                 <img src="./images/logo.png" alt="logo" class="w-10">
-                <p class="text-3xl font-bold text-white">Fruit Brust</p>
+                <p class="text-3xl font-bold lg:text-white text-[#121212]">Fruit Brust</p>
             </div>
             <!-- search bar -->
             <div class="hidden lg:flex bg-[#fff] p-4 rounded-e-full rounded-s-full">
@@ -231,8 +247,6 @@
                             </div>
                         </form>
                     </dialog>
-
-
                 </div>
                 <div class="flex flex-col items-center gap-4 border-solid border-2 border-gray-100 rounded-lg py-4">
                     <img src="./images/fruit7.png" alt="img">
@@ -263,14 +277,6 @@
                             </div>
                         </form>
                     </dialog>
-
-
-
-
-
-
-
-
                 </div>
                 <div class="flex flex-col items-center gap-4 border-solid border-2 border-gray-100 rounded-lg py-4">
                     <img src="./images/fruit8.png" alt="img">
@@ -301,13 +307,6 @@
                             </div>
                         </form>
                     </dialog>
-
-
-
-
-
-
-
                 </div>
                 <div class="flex flex-col items-center gap-4 border-solid border-2 border-gray-100 rounded-lg py-4">
                     <img src="./images/fruit9.png" alt="img">
@@ -338,13 +337,6 @@
                             </div>
                         </form>
                     </dialog>
-
-
-
-
-
-
-
                 </div>
             </div>
             <div class="py-12">
